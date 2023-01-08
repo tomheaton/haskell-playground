@@ -1,5 +1,5 @@
 cabal-version:      2.4
-name:               haskell
+name:               haskell-playground
 version:            0.1.0.0
 
 -- A short (one-line) description of the package.
@@ -13,7 +13,7 @@ version:            0.1.0.0
 
 -- The license under which the package is released.
 -- license:
-author:             Tom Heaton
+author:             Thomas Heaton
 maintainer:         thomas.m.heaton@gmail.com
 
 -- A copyright notice.
@@ -29,11 +29,11 @@ library
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    base ^>=4.14.3.0
+    build-depends:    base ^>=4.16.4.0
     hs-source-dirs:   src
     default-language: Haskell2010
 
-executable haskell
+executable haskell-playground
     main-is:          Main.hs
 
     -- Modules included in this executable, other than Main.
@@ -42,8 +42,7 @@ executable haskell
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
     build-depends:
-        base ^>=4.14.3.0,
-        haskell
-
+        base ^>=4.16.4.0,
+        haskell-playground
     hs-source-dirs:   app
     default-language: Haskell2010
