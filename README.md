@@ -1,3 +1,3 @@
 # haskell-playground
 
-a haskell playground
+A playground for learning Haskell

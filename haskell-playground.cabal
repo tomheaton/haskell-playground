@@ -3,18 +3,18 @@ name:               haskell-playground
 version:            0.1.0.0
 
 -- A short (one-line) description of the package.
--- synopsis:
+synopsis:          A playground for learning Haskell
 
 -- A longer description of the package.
--- description:
+description:       A playground for learning Haskell
 
 -- A URL where users can report bugs.
--- bug-reports:
+bug-reports:       https://github.com/tomheaton/haskell-playground/issues
 
 -- The license under which the package is released.
--- license:
-author:             Thomas Heaton
-maintainer:         thomas.m.heaton@gmail.com
+-- license:            MIT
+author:             Tom Heaton
+maintainer:         tom@tomheaton.dev
 
 -- A copyright notice.
 -- copyright:
