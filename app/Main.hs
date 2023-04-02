@@ -7,6 +7,9 @@ factorial n
   | n <= 0 = 1
   | otherwise = n * factorial (n - 1)
 
+addOne :: Int -> Int
+addOne n = n + 1
+
 main :: IO ()
 main = do
   putStrLn "Hello, Haskell!"
@@ -14,3 +17,6 @@ main = do
 
   let result = factorial 10
   putStrLn $ "Factorial of 10 is " ++ show result
+
+  let result2 = addOne 10
+  putStrLn $ "Add one to 10 is " ++ show result2
