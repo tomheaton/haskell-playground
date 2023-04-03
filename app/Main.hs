@@ -37,6 +37,8 @@ main = do
   putStrLn $ "Add one to 10 is " ++ show result2
 
   -- let tree = Node Leaf Leaf
+  let tree = Node 1 (Node 2 Empty Empty) (Node 3 Empty Empty)
+  putStrLn $ "Tree is " ++ show tree
 
   let list = [1, 2, 3, 4, 5]
   let list2 = map addOne list
